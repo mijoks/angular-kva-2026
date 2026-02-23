@@ -1,0 +1,12 @@
+<ul>
+    @for (f of flights(); track $index){
+    <li>
+        <h3>{{f.destination}}</h3>
+        <ul>
+            <li>ID: {{f.id}}</li>
+            <li>Broj leta: {{f.flightNumber}}</li>
+           
+        </ul>
+    </li>
+    }
+</ul>
